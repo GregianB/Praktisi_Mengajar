@@ -5,8 +5,8 @@
 <div class="d-flex justify-content-center">
     <div class="card mt-5" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">Login</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Silahkan masukan Email dan Password untuk login</h6>
+          <h5 class="card-title">Register</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Silahkan masukan Email dan Password untuk register</h6>
             <div class="row">
                 <form action="/register" method="POST">
                     @csrf

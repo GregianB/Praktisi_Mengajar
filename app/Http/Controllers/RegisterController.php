@@ -24,6 +24,7 @@ class RegisterController extends Controller
         $user->password = bcrypt($request->password);
         $user->save();
 
-        return "berhasil simpan";
+        return redirect('/login')->with('Success','Berhasil Mendaftar, Silahkan Login!');
+        //return "berhasil simpan";
     }
 }
